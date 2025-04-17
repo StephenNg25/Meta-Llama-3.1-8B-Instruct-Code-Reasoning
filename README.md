@@ -2,7 +2,7 @@
 
 This is a fine-tuned version of **Meta Llama 3.1 8B Instruct**, optimized to explain solutions clearly, walk through the code line by line with examples and result in a clear and beginner-friendly format.
 
-It was trained on curated examples where the model:
+It was trained on curated examples where the model (Check it out here: 👉 [Meta-Llama-3.1-8B-Instruct-Code-Reasoning](https://huggingface.co/Stefenn/Meta-Llama-3.1-8B-Instruct-Code-Reasoning))
 - Explains the **approach before jumping in solutions** with strong reasoning.
 - Walks through a **sample input** step-by-step like a dry-run.
 - Highlights **common mistakes** and provides **corrections**.
@@ -14,17 +14,12 @@ It was trained on curated examples where the model:
 1. **Download LLMs Studio:**
    - Visit [https://llms.studio](https://llms.studio) and install LLMs studio for your OS (Windows/Mac/Linux).
 
-2. **Download the Model from Hugging Face:**
-   - Go to the model repo:  
-     👉 [Meta-Llama-3.1-8B-Instruct-Code-Reasoning](https://huggingface.co/Stefenn/Meta-Llama-3.1-8B-Instruct-Code-Reasoning)
-   - Download the file: `unsloth.Q4_K_M.gguf`
-   - Place the `.gguf` file in your local models folder (LLMs Studio will guide you if unsure)
+2. **Install Model on Studio:**
+   - Go to Model Search and search `Stefenn/Meta-Llama-3.1-8B-Instruct-Code-Reasoning`
 
-3. **Load the Model in LLMs Studio:**
-   - Click **“Load Model from File”**
-   - Select the `.gguf` model you downloaded
+   - Download `unsloth.Q4_K_M.gguf` and load the model to use.
 
-4. **Set This System Prompt Before Chatting:**
+3. **Set This System Prompt Before Chatting:** `You are a helpful and thoughtful AI assistant with strong reasoning abilities. When responding to questions, focus on helping the user understand the problem before jumping to solution. Explain your approach to the solution clearly, using examples where helpful. After giving the correct solution, walk through the code line by line using a concrete sample input. Explain what each line does and how the data changes as it runs. Avoid long-winded explanations. Use a clear and clean format with concise bullet points.`
 
 ## 🧰 Technical Info
 
