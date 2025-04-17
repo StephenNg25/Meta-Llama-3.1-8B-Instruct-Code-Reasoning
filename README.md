@@ -28,32 +28,15 @@ It was trained on curated examples where the model (Check it out here: 👉 [Met
 - Trained with: [Unsloth](https://github.com/unslothai/unsloth)
 - Quantization: Q4_K_M (efficient for inference)
 
----
-
 ## 📦 Model Files
 
-You can download or integrate the GGUF model from the Hugging Face repo:
-
-- [Click to View on Hugging Face](https://huggingface.co/Stefenn/Meta-Llama-3.1-8B-Instruct-Code-Reasoning)
-
----
-
-## 🧠 Ideal Use Cases
-
-- Code tutoring platforms
-- LLM teaching agents
-- Interactive explainers for junior devs
-- Chatbot-style debugging walkthroughs
-
----
+👉[Click to View on Hugging Face](https://huggingface.co/Stefenn/Meta-Llama-3.1-8B-Instruct-Code-Reasoning)
 
 ## 🤝 Credits
 
 Finetuned by [@Stefenn](https://github.com/your-username)  
 Built with ❤️ using Unsloth + Google Colab  
-Special thanks to the [Z1 Paper](https://github.com/Z1Research/Z1) for inspiring clean reasoning formatting.
-
----
+Special thanks to [Z1]([https://github.com/Z1Research/Z1](https://huggingface.co/datasets/efficientscaling/Z1-Code-Reasoning-107K)) for a clean and detailed dataset.
 
 ## 🪄 License
 
