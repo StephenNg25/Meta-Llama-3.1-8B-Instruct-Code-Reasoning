@@ -1,4 +1,4 @@
-# 🧠 Fine-Tuned Llama-3.1-8B-Instruct
+# 🧠 Fine-Tuned Llama-3.1-8B-Instruct for Code Reasoning
 
 This is a fine-tuned version of **Meta Llama 3.1 8B Instruct**, optimized to explain solutions clearly, walk through the code line by line with examples and result in a clear and beginner-friendly format.
 
